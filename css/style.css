@@ -1,0 +1,99 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: "Open Sans";
+    color: #555;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-bar{
+    padding: 20px;
+    font-size: 1.3rem;
+    background-color: #333;
+    text-align: center;
+    color: white;
+    border-bottom: 7px solid #fd8a24;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+}
+.headline{
+    color: #111;
+    font-size: 3.78rem;
+    margin: 30px 0px;
+}
+.sub-title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 30px 0px;
+    color: #555;
+}
+.author{
+    font-size: 0.8rem;
+}
+.att{
+    font-size: 0.75rem;
+    color: #555;
+    opacity: 50%;
+}
+
+.socials{
+    margin: 30px 0px;
+}
+ .socials img{
+    width: 35px;
+    margin: 0px 20px 0px 0px;
+ }
+
+ /* CONTENT */
+
+ .content{
+    width: 75%;
+    margin: auto;
+ }
+.content p{
+    margin: 30px 0px;
+    font-size: 1.43rem;
+}
+.content h2{
+    margin: 30px 0px;
+    font-size: 1.3rem;
+}
+.content h2 a{
+    color: #fd8a24;
+}
+figure{
+    margin: 30px 0px; /*Opcional pois os parágrafos já estão com margin de 30px TOP e BOTTOM*/
+}
+.content h2 li{
+    list-style-position:inside;
+    margin-left: 10px;
+    font-size: 2rem;
+    color: #111;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #333;
+    margin-top: 100px;
+    height: 89px;
+}
